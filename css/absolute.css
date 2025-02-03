@@ -1,0 +1,26 @@
+nav {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    display: inline;
+
+    margin: 0;
+    padding: 0;
+
+    text-decoration: underline;
+}
