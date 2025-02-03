@@ -24,3 +24,49 @@ a {
 
     text-decoration: underline;
 }
+
+/* Container */
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+/* Caixas sobrepostas */
+.box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 150px;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Primeira caixa (mais ao fundo) */
+.box1 {
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+/* Segunda caixa (meio) */
+.box2 {
+    background-color: blue;
+    top: 70px;
+    left: 70px;
+    z-index: 2;
+}
+
+/* Terceira caixa (mais na frente) */
+.box3 {
+    background-color: green;
+    top: 90px;
+    left: 90px;
+    z-index: 3;
+}

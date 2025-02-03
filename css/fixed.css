@@ -24,3 +24,42 @@ a {
 
     text-decoration: underline;
 }
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+/* Conteúdo */
+.conteudo {
+    margin-top: 80px; /* Evita sobreposição com o cabeçalho */
+    padding: 20px;
+}
+
+/* Botão fixo no canto inferior direito */
+.botao-flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Efeito de hover */
+.botao-flutuante:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}

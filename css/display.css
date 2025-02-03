@@ -24,3 +24,57 @@ a {
 
     text-decoration: underline;
 }
+
+/* Display Block */
+.block {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Display Inline */
+.inline {
+    display: inline;
+    background-color: #28a745;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Display Inline-Block */
+.inline-block {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background-color: #ff9800;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Display Flex */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: #dc3545;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 5px;
+}

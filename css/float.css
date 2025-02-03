@@ -24,3 +24,42 @@ a {
 
     text-decoration: underline;
 }
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Caixas flutuantes */
+.box {
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Float Left */
+.esquerda {
+    background-color: #007bff;
+    float: left;
+}
+
+/* Float Right */
+.direita {
+    background-color: #28a745;
+    float: right;
+}
+
+/* Clearfix para corrigir problemas de altura */
+.clear {
+    clear: both;
+}
