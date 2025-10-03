@@ -8,19 +8,19 @@ A escolha correta do tipo de posicionamento é essencial para garantir a manuten
 
 Posicionamento padrão de todos os elementos HTML. Os elementos são posicionados de acordo com o fluxo normal do documento, trazendo simplicidade e previsibilidade, porém tem a desvantagem de não ter a flexibilidade para sobrepor ou ajustar posições. É utilizado por padrão e pode ser utilizado sempre que não houver a necessidade de algum tipo de posicionamento especial.
 
-Exemplo
+#### Exemplo
 
 ```css
 p {
   position: static;
 }
 ```
-
+---
 ### relative
 
 O elemento é posicionado com relação à sua posição original, mantendo o espaço original ocupado e com flexibilidade para pequenos deslocamentos, porém não sai do fluxo do documento. Utilizado para fazer pequenos ajustes sem afetar os outros elementos.
 
-Exemplo
+#### Exemplo
 
 ```css
 div {
@@ -29,12 +29,12 @@ div {
   left: 10px;
 }
 ```
-
+---
 ### absolute
 
 Remove o elemento do fluxo do documento e o posiciona em relação ao elemento ancestral com `position: relative`, ou ao body caso não haja nenhum ancestral posicionado. Possui algumas vantagens como precisão total no posicionamento e também não afeta outros elementos, porém pode causar sobreposição inesperadas e não é responsivo por padrão. Utilizado quando é necessário posicionamento preciso em relação a outro elemento.
 
-Exemplo
+#### Exemplo
 
 ```css
 div {
@@ -43,12 +43,12 @@ div {
   right: 30px;
 }
 ```
-
+---
 ### fixed
 
 O elemento é posicionado em relação à janela de visualização (viewport), permanecendo fixo mesmo ao rolar a página, sempre visível ao usuário, porém pode sobrepor outros elementos. Utilizado por exemplo para elementos como menus fixos e botões de volta ao topo.
 
-Exemplo
+#### Exemplo
 
 ```css
 div {
@@ -57,12 +57,12 @@ div {
   right: 10px;
 }
 ```
-
+---
 ### float
 
 Permite que elementos "flutuem" para o lado esquerdo ou direito, permitindo que outros elementos fluam ao seu redor, tem boa compatibilidade com navegadores mais antigos, porém é difícil de controlar espaçamentos e pode causar problemas de colapsos com contêineres. Era utilizado para construir layouts antes do flexbox e do grid.
 
-Exemplo
+#### Exemplo
 
 ```css
 div {
@@ -70,12 +70,12 @@ div {
   width: 50%;
 }
 ```
-
+---
 ### z-index
 
 Controla a ordem de empilhamento (eixo z) dos elementos na página, elementos com valor `z-index` maior aparecem na frente de elementos com valor menor. Sua vantagem é o controle preciso sobre a hierarquia visual, porém pode criar confusão se não usado corretamente. Utilizado para garantir a sobreposição correta de elementos.
 
-Exemplo
+#### Exemplo
 
 ```css
 div {
@@ -83,7 +83,7 @@ div {
   z-index: 10;
 }
 ```
-
+---
 ### display
 
 Define como um elemento é exibido na página, técnica mais utilizada nos dias atuais para trabalhar com layouts responsivos utilizando flexbox e grid layout. 
@@ -96,7 +96,7 @@ Valores comuns:
 - `flex`: Permite layouts flexíveis.
 - `grid`: Usa um sistema de grade.
 
-Exemplo:
+#### Exemplo:
 
 ```css
 div {
@@ -104,7 +104,7 @@ div {
   justify-content: center;
 }
 ```
-
+---
 [Aula prática](https://www.notion.so/Aula-pr-tica-24fd15a33297816b9048c4fc03ad1fd9?pvs=21)
 
 ## Referências
