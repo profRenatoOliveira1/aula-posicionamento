@@ -24,3 +24,54 @@ a {
 
     text-decoration: underline;
 }
+
+/* Container */
+.container {
+    /* Configurar o container como relativo */
+
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+/* Caixas sobrepostas */
+.box {
+    /* Configurar as caixas como absolutas */
+    
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 150px;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Primeira caixa (mais ao fundo) */
+.box1 {
+    background-color: red;
+    top: 50px; /* Começa no pixel 50 do topo da página */
+    left: 50px; /* Começa no pixel 50 do lado esquerdo da página*/
+    /* Configurar o eixo Z (1) */
+    
+}
+
+/* Segunda caixa (meio) */
+.box2 {
+    background-color: blue;
+    top: 70px; /* Começa no pixel 70 do topo da página */
+    left: 70px; /* Começa no pixel 70 do lado esquerdo da página*/
+    /* Configurar o eixo Z (2) */
+
+}
+
+/* Terceira caixa (mais na frente) */
+.box3 {
+    background-color: green;
+    top: 90px; /* Começa no pixel 90 do topo da página */
+    left: 90px; /* Começa no pixel 90 do lado esquerdo da página*/
+    /* Configurar o eixo Z (3) */
+    
+}

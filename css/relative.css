@@ -24,3 +24,37 @@ a {
 
     text-decoration: underline;
 }
+
+/* Container */
+.container {
+    /* Colocar o container na posição relativa */
+    
+    width: 300px;
+    height: 200px;
+    background-color: #ddd;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caixa normal */
+.caixa {
+    width: 120px;
+    height: 80px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+/* Caixa com posição relativa */
+.relativa {
+    /* Colocar o container na posição relativa */
+
+    top: 20px; /* Começa no pixel 20 do topo da página */
+    left: 30px; /* Começa no pixel 30 do lado esquerdo da página*/
+    background-color: lightcoral;
+    border-color: red;
+}
